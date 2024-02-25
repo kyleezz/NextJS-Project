@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "exams" ALTER COLUMN "prompts" SET NOT NULL,
+ALTER COLUMN "prompts" SET DEFAULT '[]',
+ALTER COLUMN "prompts" SET DATA TYPE TEXT;
